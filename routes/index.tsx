@@ -1,6 +1,7 @@
 import type { Handlers, PageProps } from "$fresh/server.ts";
-import { Head } from "$fresh/runtime.ts";
+
 import Counter from "../islands/Counter.tsx";
+import { Head } from "$fresh/runtime.ts";
 import { getCount } from "../utils/db.ts";
 
 interface HomeProps {
